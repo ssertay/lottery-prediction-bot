@@ -73,7 +73,7 @@ function yeniKupon(size, max, gun) {
     }
     kupon.sort(sortNumber);
 
-    /**Carsambaysa sans topu kuponu yap arti bir ekle.  */
+    /** Carsambaysa sans topu kuponu yap arti bir ekle.  */
     if (gun === "Wednesday") {
         kupon.push(Math.floor((Math.random() * 14) + 1));
     }
@@ -174,5 +174,5 @@ if (today === "Monday" || today === "Wednesday" || today === "Thursday" || today
 
 }
 else {
-    console.log(date + "\n" + "Not today, motherfuckers.\n");
+    console.log(date + "\n" + "Not today.\n");
 }

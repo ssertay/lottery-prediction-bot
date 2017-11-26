@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mongoose": "^4.13.5",
+    "twitter": "^1.7.1"
+  }
+}
